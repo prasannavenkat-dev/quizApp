@@ -1,16 +1,14 @@
 
 @import "./home.css";
 @import "./navbar.css";
-@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
 @import "./quiz.css";
 @import "./scorecard.css";
-
-*{
-    box-sizing: border-box;
-}
-
+@import "./font.css";
 body{
     padding: 0;
     margin: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
