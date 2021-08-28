@@ -1,0 +1,30 @@
+#navbar{
+
+    background-color: rgb(70, 23, 143);
+    color: white;
+    padding: 15px;
+
+}
+
+
+
+.brand{
+    font-family: 'Change one', cursive;
+    font-size:35px;
+    font-weight:900;
+    color:white;
+    
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .brand{
+        font-size:25px;
+        font-weight:900;
+        color:white;
+        
+    }
+    
+    
+  }

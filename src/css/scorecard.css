@@ -1,0 +1,73 @@
+
+#scoreCardHeader{
+    background-color: white;
+     color: #373533;
+     align-items: center;
+      width: 100vw; 
+}
+
+.scorecard{
+    font-family: 'Change one', cursive;
+    background-color: "white";
+    color: "#373533";
+     width: '100vw' ;
+    font-size:55px;
+}
+
+
+#newQuiz{
+
+    margin: 9vh 12px 0 auto;
+}
+
+#newQuizBtn{
+    background-color: #E9660E; 
+    color: #F1F1F1; 
+    width: 100%;
+     height: 60px ;  
+}
+
+
+#messageGrid{
+
+   width: 80%;
+   padding: 30px 0;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4px; 
+   background-color: white; 
+   margin-top: 50px ;      
+ }
+ 
+ #message{
+    color: #373533;
+    margin: 0;
+}
+
+#Score{
+  color: #373533;
+  margin: 0;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    #newQuiz{
+
+        margin: 9vh auto 0;
+    }
+
+    .scorecard{
+        font-size:45px;
+    
+    }
+    #message{
+        font-size: x-large;
+    }
+
+    #score{
+        font-size: xx-large;
+    }
+    
+ 
+  }

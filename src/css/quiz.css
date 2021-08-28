@@ -1,0 +1,78 @@
+.quiz{
+    height: 100vh;
+    background: #F1F1F1;
+}
+
+
+#queNumCard{
+   background-color: #D8A000;
+    color: #FFFFFF;
+     padding:  0 8px;
+}
+
+.queGrid{
+    height: 40vh;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#question{
+    font-size: xx-large;
+}
+
+#scoreNumCard{
+    background-color: #1368CE;
+     color: #FFFFFF
+}
+
+.MuiTypography-h4{
+    font-size: 0;
+}
+
+.options{
+  width: 100%;
+  height: 100%;
+   background-color: "white";
+}
+
+.correct{
+    background-color:#64BF38;
+    color: #FFFFFF;
+}
+
+
+.wrong{
+    background-color: #FF3355;
+    color: #FFFFFF;
+}
+
+
+.optionContainer{
+  height: 30vh;
+}
+
+#spinner{
+   margin: 30vh auto; 
+   color: rgb(70, 23, 143);
+
+}
+
+
+
+@media only screen and (max-width: 330px) {
+
+
+    .queGrid{
+        height: 20vh;
+    }
+    #question{
+        font-size:larger;
+        overflow:scroll
+
+    }
+
+    .option{
+        font-size:large;
+
+    }
+
+  }
