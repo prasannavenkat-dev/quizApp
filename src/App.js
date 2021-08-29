@@ -41,16 +41,21 @@ function App() {
 
   async function fetchQuestions(category, difficulty) {
     let url;
-    if (category && category !== 'any') {
-      url = `https://opentdb.com/api.php?amount=10&category=${category}${difficulty && `&difficulty=${difficulty}&type=multiple`}`
-
-    }
-    else if (!category || category === 'any') {
-      url = `https://opentdb.com/api.php?amount=10${difficulty && `&difficulty=${difficulty}&type=multiple`}`
-
-    }
+    console.log(category,difficulty)
+      if (category && category !== 'any') {
+        url = `https://opentdb.com/api.php?amount=10&category=${category}${difficulty && `&difficulty=${difficulty}&type=multiple`}`
+  
+      }
+      else if (!category || category === 'any') {
+        url = `https://opentdb.com/api.php?amount=10${difficulty && `&difficulty=${difficulty}&type=multiple`}`;
+      }
+    
 
     let { data: { results } } = await axios.get(url);
+
+    if(results.length===0){
+      fetchQuestions('any', 'easy')
+    }
 
     setData(results)
 
