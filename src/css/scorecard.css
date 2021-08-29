@@ -1,4 +1,5 @@
 
+
 #scoreCardHeader{
     background-color: white;
      color: #373533;
@@ -62,12 +63,17 @@
     
     }
     #message{
+        padding-top: 15px;
         font-size: x-large;
     }
 
     #score{
         font-size: xx-large;
     }
-    
+    #scoreCardHeader{
+       padding-top: 10px;
+       padding-bottom: 10px;
+
+    }
  
   }
