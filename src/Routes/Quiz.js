@@ -122,9 +122,9 @@ export default function Quiz({ data, score, setScore, resetValues }) {
 
                                 <Card>
                                     <CardContent>
-                                        <Typography variant='h4' component="h2" id='question'>
+                                        <h4  id='question'>
                                             {data && data[currentQue]?.question}
-                                        </Typography>
+                                        </h4>
                                     </CardContent>
                                 </Card>
 
